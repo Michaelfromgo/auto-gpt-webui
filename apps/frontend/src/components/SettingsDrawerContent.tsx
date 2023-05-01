@@ -219,7 +219,7 @@ function DebuggingView() {
     `bash ../scripts/mock-spinner.sh`,
     `bash ../scripts/mock-user-input.sh`,
     `bash ../scripts/mock-continuous.sh`,
-    `pip install -r requirements.txt`,
+    `pip3 install -r requirements.txt`,
     command, // `python scripts/main.py` + args,
   ];
 

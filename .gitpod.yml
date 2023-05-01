@@ -2,7 +2,7 @@
 tasks:
   - name: Initialize & Start Development Server
     init: npm run setup-auto-gpt && npm install 
-    before: pip install -r auto-gpt/requirements.txt
+    before: pip3 install -r auto-gpt/requirements.txt
     command: npm run dev
 
 # Ports to expose on workspace startup
